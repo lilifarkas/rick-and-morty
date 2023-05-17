@@ -1,6 +1,6 @@
 import React from 'react'
 import './locations.css'
-import { useLocations } from '../../api/useData'
+import { useLocations } from '../api/useData'
 import PagePagination from '../pagination/PagePagination'
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';

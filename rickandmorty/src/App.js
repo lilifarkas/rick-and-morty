@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { useCharacters, useLocations } from "./api/useData";
+import { useCharacters, useLocations } from "/api/useData.js";
 import {
   BrowserRouter,
   Route,
