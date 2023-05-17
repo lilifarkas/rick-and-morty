@@ -1,0 +1,30 @@
+.ram_pagination-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ram_pagination-container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.ram_pagination-container ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ram_pagination-container button{
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0.2rem 0.2rem;
+}
+.ram_pagination-container button:hover{
+    background: rgb(210, 0, 255);
+    border-radius: 15px;
+}
