@@ -1,0 +1,82 @@
+.ram_locations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .ram_locations-container_card {
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(8, 8, 8) 99.4%);
+    margin: 2rem;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: #a9f6a4;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .ram_locations-container_card:hover {
+    box-shadow: #E762D7FF 0px 54px 55px, #D54172 0px -12px 30px;
+  }
+  
+  .ram_locations-container_card h3 {
+    margin-top: 2rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(49, 49, 49, 0.8);
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(8, 8, 8) 99.4%);
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 60%;
+    min-width: 30%;
+    align-items: center;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: #a9f6a4;
+  }
+  
+  .close-modal {
+    border-radius: 10px;
+    border-width: 1.5px;
+    width: 100%;
+    background: #28fb19;
+    cursor: pointer;
+  }
+  
+  .close-modal:hover {
+    background: #a9f6a4;
+  }
+  
+  .ram_locations-title {
+    font-family: 'Creepster', cursive;
+    font-size: 52px;
+    color: #a9f6a4;
+  }
