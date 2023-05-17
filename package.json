@@ -1,0 +1,19 @@
+{
+  "name": "rick-and-morty",
+  "version": "1.0.0",
+  "description": "Welcome to the React and Morty Fan Page repository! This is a web application built with React that allows users to explore and learn about characters and locations from the popular TV show \"Rick and Morty\". The app features pagination for easy navigation, a responsive design that adapts to different screen sizes, and a vibrant Rick and Morty-inspired visual theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilifarkas/rick-and-morty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilifarkas/rick-and-morty/issues"
+  },
+  "homepage": "https://github.com/lilifarkas/rick-and-morty#readme"
+}
