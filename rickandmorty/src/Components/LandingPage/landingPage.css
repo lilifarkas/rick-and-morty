@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+  }
+
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./wallpapersden.com_rick-and-morty-portal_3840x2160.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: left;
+    
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+   align-items:center;
+  }
+  
+  .logo {
+    width: 400px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .navigate-button {  
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #E762D7FF;
+    font-size: 30px;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+  }
+  
+  .link-text {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .navigate-button:hover {
+    background-color: rgb(229, 8, 203);
+  }
+  
+  .item-description {
+    margin-top: 40px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+  }
+  
+  @media (max-width: 1390px) {
+    .background-image {
+        background-image: url('./4540116.webp');
+        filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px); 
+        backdrop-filter: blur(3px);
+    }
+
+    .main {
+        justify-content: center;
+      }
+
+    .logo {
+      width: 200px;
+    }
+
+    .item-description {
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .navigate-button {  
+        background-color: rgb(253,91,23);
+    }
+  
+    
+  }
