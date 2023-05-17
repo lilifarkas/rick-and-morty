@@ -1,7 +1,7 @@
 import React from 'react'
 import './locations.css'
-import { useLocations } from '../api/useData'
-import PagePagination from '../pagination/PagePagination'
+import { useLocations } from '../../Api/useData'
+import PagePagination from '../Pagination/pagination'
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaArrowCircleUp } from 'react-icons/fa';

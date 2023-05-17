@@ -1,4 +1,4 @@
-import './startingPage.css'
+import './landingPage.css'
 
 
 const StartingPage = () => {

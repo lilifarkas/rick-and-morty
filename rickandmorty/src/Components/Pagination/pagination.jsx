@@ -1,5 +1,5 @@
 import React from 'react'
-import './pagePagination.css'
+import './pagination.css'
 
 const PagePagination = ({pageNum, currentPage, changePage}) => {
 

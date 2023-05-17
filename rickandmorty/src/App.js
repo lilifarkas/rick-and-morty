@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import { useCharacters, useLocations } from "/api/useData.js";
+import {useCharacters, useLocations} from "./Api/useData"
 import {
   BrowserRouter,
   Route,
   Routes
 } from "react-router-dom";
-import StartingPage from "./components/StartingPage/startingPage";
-import Characters from "./components/Characters/characters";
-import Locations from "./components/Locations/locations";
+import StartingPage from "./Components/LandingPage/landingPage";
+import Characters from "./Components/Characters/characters";
+import Locations from "./Components/Locations/locations";
 
 function App() {
 

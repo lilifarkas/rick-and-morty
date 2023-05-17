@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useFetch } from "useFetch.js";
-import { mainUrls } from "dataRoutes.js";
+import { useFetch } from "./useFetch.js";
+import { mainUrls } from "./dataRoutes.js";
 
 /**
      Fetch data from an open-source API. It returns json containing pagination.

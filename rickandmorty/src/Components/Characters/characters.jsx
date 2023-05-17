@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import './Character.css'
-import { useCharacters } from "../api/useData";
-import PagePagination from '../pagination/PagePagination';
+import './characters.css'
+import {useCharacters} from"../../Api/useData";
+import PagePagination from '../Pagination/pagination';
 import { NavLink } from 'react-router-dom';
 import { FaArrowCircleUp } from 'react-icons/fa';
 
