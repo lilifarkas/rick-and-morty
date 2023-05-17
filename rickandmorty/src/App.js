@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { useCharacters, useLocations } from "./api/useData";
+import {
+  BrowserRouter,
+  Route,
+  Routes
+} from "react-router-dom";
+import StartingPage from "./components/StartingPage/startingPage";
+import Characters from "./components/Characters/characters";
+import Locations from "./components/Locations/locations";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  const characters = useCharacters(2);
+  const locations = useLocations(1);
+
+  return <>
+
+    <BrowserRouter>
+
+        <Routes>
+
+          <Route path="/" element={<StartingPage />}>
+          </Route>
+
+          <Route path="/characters" element={<div className="bg"> <Characters details={characters} /> </div>   }>
+          </Route>
+
+          <Route path="/locations" element={<div className="bg"><Locations details={locations} /></div>}>
+          </Route>
+
+
+        </Routes>
+
+    </BrowserRouter>
+  </>;
 }
 
 export default App;
